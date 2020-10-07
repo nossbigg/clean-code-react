@@ -25,11 +25,17 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app"
+      "react-app",
+      "plugin:fp/recommended"
     ],
     "rules": {
-      "no-console": "warn"
-    }
+      "no-console": "warn",
+      "fp/no-nil": "off",
+      "fp/no-unused-expression": "off"
+    },
+    "plugins": [
+      "fp"
+    ]
   },
   "browserslist": {
     "production": [
@@ -53,6 +59,7 @@
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.5",
     "enzyme-to-json": "3.6.1",
+    "eslint-plugin-fp": "2.3.0",
     "prettier": "2.1.2"
   }
 }
