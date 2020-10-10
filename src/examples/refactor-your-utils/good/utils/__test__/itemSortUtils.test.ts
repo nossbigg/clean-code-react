@@ -1,7 +1,7 @@
 import { getCheapestItem, getMostExpensiveItem } from "../itemSortUtils";
 import { testMocks } from "./testMocks";
 
-describe("itemRenderUtils", () => {
+describe("itemSortUtils", () => {
   const { mockItems, pearItem, cornItem } = testMocks;
 
   it("gets cheapest item", () => {

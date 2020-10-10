@@ -1,7 +1,7 @@
 import { filterByJpyItem, filterBySgdItem } from "../itemFilterUtils";
 import { testMocks } from "./testMocks";
 
-describe("itemRenderUtils", () => {
+describe("itemFilterUtils", () => {
   const { mockItems, appleItem, pearItem, cornItem } = testMocks;
 
   it("filters by sgd items", () => {
