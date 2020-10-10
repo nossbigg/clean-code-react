@@ -19,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test-nowatch": "CI=true react-scripts test",
     "eject": "react-scripts eject",
     "lint": "yarn lint:prettier && yarn lint:eslint && yarn typecheck",
     "lint:fix": "yarn lint:prettier && yarn lint:eslint --fix && yarn typecheck",
@@ -63,6 +64,12 @@
     "enzyme-adapter-react-16": "1.15.5",
     "enzyme-to-json": "3.6.1",
     "eslint-plugin-fp": "2.3.0",
+    "husky": "4.3.0",
     "prettier": "2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn test-nowatch"
+    }
   }
 }
