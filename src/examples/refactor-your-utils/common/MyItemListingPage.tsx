@@ -1,7 +1,7 @@
 import React from "react";
 import { MyItemComponent } from "./MyItemComponent";
-import { ITEMS } from "../consts";
-import { MyItem } from "../typedefs";
+import { ITEMS } from "./consts";
+import { MyItem } from "./typedefs";
 import {
   filterBySgdItem,
   getCheapestItem,

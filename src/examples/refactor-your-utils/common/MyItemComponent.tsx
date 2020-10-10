@@ -1,5 +1,5 @@
 import React from "react";
-import { MyItem } from "../typedefs";
+import { MyItem } from "./typedefs";
 
 type MyItemComponentProps = { item: MyItem };
 

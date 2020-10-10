@@ -1,5 +1,5 @@
 /* eslint-disable fp/no-mutating-methods */
-import { MyItem, MyItemPriceCurrency } from "../typedefs";
+import { MyItem, MyItemPriceCurrency } from "../common/typedefs";
 
 // item price utils
 const sortItemsByPriceAmountAscending = (items: MyItem[]): MyItem[] =>

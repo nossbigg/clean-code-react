@@ -1,4 +1,4 @@
-import { MyItem, MyItemPriceCurrency } from "../../typedefs";
+import { MyItem, MyItemPriceCurrency } from "../../common/typedefs";
 
 export const filterBySgdItem = (items: MyItem[]) =>
   items.filter(filterByItem("SGD"));

@@ -1,4 +1,4 @@
-import { MyItem } from "../../../typedefs";
+import { MyItem } from "../../../common/typedefs";
 
 const appleItem: MyItem = {
   id: "abcd",
