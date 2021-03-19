@@ -1,6 +1,6 @@
 /* eslint-disable fp/no-throw */
 
-type MakeFetchOptions = { endpointSuffix: string; fetchOptions: RequestInit };
+export type MakeFetchOptions = { endpointSuffix: string; fetchOptions: RequestInit };
 
 export const makeFetch = (baseUrl: string) => async (
   options: MakeFetchOptions,
