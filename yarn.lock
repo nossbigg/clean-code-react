@@ -6557,6 +6557,11 @@ jest-message-util@^24.9.0:
     slash "^2.0.0"
     stack-utils "^1.0.1"
 
+jest-mock-curry-fn@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/jest-mock-curry-fn/-/jest-mock-curry-fn-0.0.1.tgz#f0af873f9e638d50b708b06cd397fe1796bf585d"
+  integrity sha512-zWgyDnmTjEX06jii9UeMBDx9eaCeUWRjiL69/SW2oPxM4vSwyD+iazrgrx5qocqyNsZa6AsUeXvRNG6Ve/rKMw==
+
 jest-mock@^24.0.0, jest-mock@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-24.9.0.tgz#c22835541ee379b908673ad51087a2185c13f1c6"
